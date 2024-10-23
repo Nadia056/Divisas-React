@@ -1,0 +1,33 @@
+/* Estilos generales */
+.splash-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1abc9c, #3498db); /* Fondo degradado */
+    color: white;
+}
+
+.content {
+    text-align: center;
+}
+
+.logo {
+    width: 150px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.underline {
+    width: 100px;
+    height: 3px;
+    background-color: white;
+    border: none;
+    margin: 0 auto;
+}
