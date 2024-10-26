@@ -17,6 +17,15 @@
       "exchangeRate": "19.8500",
       "total": "297.75",
       "type": "venta"
+    },
+    {
+      "id": "8dfe6683-8b9f-48a6-9822-d385fc0e2365",
+      "fromCurrency": "MXN",
+      "toCurrency": "JPY",
+      "amount": "500",
+      "exchangeRate": "10.0000",
+      "total": "5000.00",
+      "type": "venta"
     }
   ]
 }

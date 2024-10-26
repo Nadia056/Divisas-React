@@ -17,6 +17,15 @@
       "exchangeRate": "0.0504",
       "total": "15.12",
       "type": "compra"
+    },
+    {
+      "id": "df902cdf-f72c-469f-aec3-265e6f55f016",
+      "fromCurrency": "MXN",
+      "toCurrency": "JPY",
+      "amount": "500",
+      "exchangeRate": "7.6923",
+      "total": "3846.15",
+      "type": "compra"
     }
   ]
 }

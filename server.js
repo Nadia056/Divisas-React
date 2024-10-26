@@ -19,6 +19,7 @@ const uploadsDir = path.join(__dirname, 'src/uploads');
 const ventasFilePath = path.join(__dirname, 'ventas.json');
 const comprasFilePath = path.join(__dirname, 'compras.json');
 
+
 // Configurar multer para manejar la subida de archivos
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {
