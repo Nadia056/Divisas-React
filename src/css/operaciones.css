@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     padding-bottom: 80px;
+    background-color: rgb(242, 243, 245);
     margin: 10px; /* Asegúrate de que no haya margen en el body */
 }
 
@@ -61,7 +62,6 @@ body {
 }
 .input-group1 {
     display: flex;
-    align-items: center;
  
     position: relative; /* Permite mejor control sobre la alineación */
 }
@@ -110,9 +110,10 @@ body {
     }
 
     
-    .input-group input {
-        padding: 0px;
-       
+   
+    .input-group1 {
+        display: flex;
+        position: relative;
     }
 
     .btn-submit {

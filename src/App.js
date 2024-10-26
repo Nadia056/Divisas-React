@@ -6,6 +6,7 @@ import Operaciones from './operaciones';
 import Configuraciones from './configuraciones';
 import Splash from './splash';  // Importa tu componente Splash
 import './App.css';
+import './css/splash.css';
 import './css/operaciones.css';
 
 function App() {

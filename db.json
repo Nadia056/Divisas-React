@@ -1,0 +1,37 @@
+{
+  "currencies": [
+    {
+      "name": "USD",
+      "buyPrice": "18",
+      "sellPrice": "19.85"
+    },
+    {
+      "name": "JPY",
+      "buyPrice": "0.10",
+      "sellPrice": "0.13"
+    },
+    {
+      "name": "MXN",
+      "buyPrice": "1",
+      "sellPrice": "1"
+    }
+  ],
+  "businesses": [
+    {
+      "id": "d0d2c378-b8a6-4301-9c15-cfae6d8f5b3a",
+      "businessName": "Casa de cambio",
+      "address": "Av. juarez ",
+      "city": "Matamoros",
+      "state": "Coahuila",
+      "logo": null
+    },
+    {
+      "id": "4870f341-ae81-4804-9c6c-27ecd1ab9046",
+      "businessName": "Casa de cambio",
+      "address": "Av. juarez ",
+      "city": "Matamoros",
+      "state": "Coahuila",
+      "logo": null
+    }
+  ]
+}

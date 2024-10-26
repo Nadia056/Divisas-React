@@ -1,10 +1,20 @@
 /* Estilos generales */
+/* Estilos específicos para la página de splash */
+.splash-body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
 .splash-screen {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100vw;
     height: 100vh;
-    background: linear-gradient(135deg, #1abc9c, #3498db); /* Fondo degradado */
+    background: linear-gradient(135deg, #1abc9c, #3498db);
     color: white;
 }
 

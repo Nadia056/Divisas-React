@@ -106,6 +106,7 @@ header h1 {
 
 .currency-item {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   background-color: white;
   border-radius: 10px;
@@ -129,22 +130,74 @@ header h1 {
 
 .currency-item label {
   font-size: 18px;
-  color: #333;
+  color: black;
+  padding-right: 230px;
 }
 
 .currency-item p {
   margin: 0;
-  color: #666;
+  color: gray;
 }
 
 
 /* Responsividad */
+.actions {
+  display: grid;
+  gap: 10px;
+  justify-content: flex-end;
+  margin-right: 10px; /* Asegura que los botones estén pegados a la derecha con un margen de 10px */
+}
+
+.btn-edit, .btn-delete {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-edit {
+  color: #1abc9c;
+}
+
+.btn-delete {
+  color: #e74c3c;
+}
+
+.btn-confirm {
+  background-color: #16a085 !important;
+  color: white !important;
+  border: none !important;
+  padding: 10px 20px !important;
+  border-radius: 5px !important;
+  cursor: pointer !important;
+}
+
+.btn-cancel {
+  background-color: #e74c3c !important;
+  color: white !important;
+  border: none !important;
+  padding: 10px 20px !important;
+  border-radius: 5px !important;
+  cursor: pointer !important;
+}
+
 @media (max-width: 600px) {
-  .registrar {
-    width: 90%;
+  .swal2-popup {
+    width: 90% !important;
+    font-size: small;
+    width: 50px;
+    font-family: Arial, sans-serif;
+    color: black;
+  }
+  .swal2-input {
+    width: 50% !important;
+    border-radius: 8px;
   }
 
-  .currencies {
-    width: 100%;
+  .currency-item label {
+    font-size: 18px;
+    color: black;
+    padding-right: 150px;
   }
+  
 }

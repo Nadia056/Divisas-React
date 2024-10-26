@@ -1,0 +1,22 @@
+{
+  "compras": [
+    {
+      "id": "c28d8408-089b-4b15-a8b2-c141d606389b",
+      "fromCurrency": "USD",
+      "toCurrency": "JPY",
+      "amount": "15",
+      "exchangeRate": "138.4615",
+      "total": "2076.92",
+      "type": "compra"
+    },
+    {
+      "id": "fbfd237b-b653-4f94-ac14-e381c455ebaa",
+      "fromCurrency": "MXN",
+      "toCurrency": "USD",
+      "amount": "300",
+      "exchangeRate": "0.0504",
+      "total": "15.12",
+      "type": "compra"
+    }
+  ]
+}

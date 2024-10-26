@@ -1,0 +1,22 @@
+{
+  "ventas": [
+    {
+      "id": "41900db1-5c3d-4d65-8493-a2c366b2cb5b",
+      "fromCurrency": "USD",
+      "toCurrency": "JPY",
+      "amount": "15",
+      "exchangeRate": "198.5000",
+      "total": "2977.50",
+      "type": "venta"
+    },
+    {
+      "id": "c45dc1f5-13d7-4335-b553-a189bfc72903",
+      "fromCurrency": "USD",
+      "toCurrency": "MXN",
+      "amount": "15",
+      "exchangeRate": "19.8500",
+      "total": "297.75",
+      "type": "venta"
+    }
+  ]
+}
